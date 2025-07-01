@@ -22,9 +22,9 @@ it('Call the /pong endpoint', async done => {
     done()
 })
 it('Call the /hello/:name endpoint', async done => {
-    const res = await request.get('/hello/Iqbal')
+    const res = await request.get('/hello/Naufal Ardi')
     expect(res.status).toBe(200)
-    expect(res.body.message).toBe('Hello Iqbal')
+    expect(res.body.message).toBe('Hello Naufal')
     done()
 })
   
